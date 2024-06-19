@@ -6,6 +6,9 @@ try :
         if simbolo == "+":
             resultado = num1 + num2;
             print(num1,simbolo,num2,"=",resultado);
-
+        elif simbolo == "-":
+            resultado = num1 - num2;
+            print(num1,simbolo,num2,"=",resultado);
+            
 except :
     print("Error");
